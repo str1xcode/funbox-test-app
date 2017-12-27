@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.app .app__sidebar {
+  display: block;
+  width: 250px;
+  padding: 10px;
+}

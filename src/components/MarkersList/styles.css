@@ -1,0 +1,32 @@
+.markers-list {
+  display: block;
+  margin: 10px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.markers-list .markers-list__item {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  padding: 5px;
+  cursor: move;
+}
+.markers-list .markers-list__item .item__name {
+  flex: 1 1 auto;
+  /* margin-right: auto; */
+  padding-right: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.markers-list .markers-list__item .item__delete {
+  flex: 0 0 auto;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #000;
+  line-height: 1;
+  font-size: 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "funbox-test-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-dnd": "^2.5.4",
+    "react-dnd-html5-backend": "^2.5.4",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "react-test-renderer": "^16.2.0",
+    "sinon": "^4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-e2e": "REACT_APP_IS_E2E_TEST=true react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "test-e2e": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.2",
+    "puppeteer": "^0.13.0"
+  }
+}
